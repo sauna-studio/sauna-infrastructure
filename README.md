@@ -12,7 +12,7 @@ Terraform / Google Cloud Run / Cloud SQL PostgreSQL 18 / OpenTelemetry / Docker�
 
 ## Verification
 
-実装後はterraform fmt -check -recursive / init -backend=false / validateを実行する。apply・本番デプロイ・課金リソース・広いIAM付与は明示承認まで実行しない。
+実装後はterraform fmt -check -recursive / init -backend=false / validateを実行する。apply・課金リソース・広いIAM付与は明示承認まで実行しない。本番デプロイ自体は都度確認を求めない。
 
 初期PRは開発基盤のみを追加します。CIはRepository policy検査を実行し、業務機能の実装や動作検証はまだ含みません。
 
